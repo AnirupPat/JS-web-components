@@ -1,4 +1,6 @@
-const apiKey = "a45444d689a94a55b9e69b0abd4dd411";
+import API_KEY from "./utils/constants.js";
+
+const apiKey = API_KEY;
 const topHeadlinesUrl =
   "https://newsapi.org/v2/top-headlines?country=us&apiKey=" + apiKey;
 
