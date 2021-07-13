@@ -19,14 +19,15 @@ class NewsArticle extends HTMLElement {
            img {
             width: 100%;
           }
-          </style>
+    </style>
     <div>
-    <a href="${article.url}">
-    <h2>${article.title}</h2>
-    <img src="${article.urlToImage ? article.urlToImage : ""}">
-    <p>${article.description}</p>
-    
-  </a><p>-----------------------------End of a story-----------------------------</p></div>
+        <a href="${article.url}">
+            <h2>${article.title}</h2>
+            <img src="${article.urlToImage ? article.urlToImage : ""}">
+            <p>${article.description}</p>
+        </a>
+        <p>-----------------------------End of a story-----------------------------</p>
+    </div>
   `;
   }
 }
